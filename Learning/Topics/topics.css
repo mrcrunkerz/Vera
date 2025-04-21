@@ -1,0 +1,19 @@
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-direction: column;
+}
+/* media Query */
+
+@media (min-width: 37.5rem) {
+  .container {
+    flex-direction: row;
+    width: 60%;
+  }
+  .container a {
+    margin: 1rem;
+  }
+}

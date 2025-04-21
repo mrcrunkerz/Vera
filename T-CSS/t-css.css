@@ -1,0 +1,12 @@
+@media (min-width: 62rem) {
+  .container {
+    max-width: 80vw;
+  }
+  .flex-container {
+    grid-template-columns: repeat(2, 1fr); /* Always 2 columns */
+  }
+  .video-card {
+    width: 100%;
+    max-width: 40rem;
+  }
+}

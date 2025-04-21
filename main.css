@@ -1,0 +1,10 @@
+.container {
+  width: 80%;
+}
+/* media Query */
+
+@media (min-width: 37.5rem) {
+  .container {
+    width: 60%;
+  }
+}
